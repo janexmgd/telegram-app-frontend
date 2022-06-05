@@ -1,0 +1,33 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Rubik;
+    background-color: #e5e5e5;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+.content {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.leftContent {
+    width: 30%;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.rightContent {
+    width: 70%;
+    height: 100vh;
+    background-color: #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #848484;
+}

@@ -9,6 +9,7 @@ import {
 //import pages
 import Login from '../pages/Login';
 import Register from '../pages/Register';
+import Chat from '../pages/Chat';
 
 // eslint-disable-next-line no-unused-vars
 const PrivateRoute = () => {
@@ -24,9 +25,9 @@ const router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        {/* <Route path="/">
-          <Route index element={<Index />} />
-        </Route> */}
+        <Route path="/" element={<PrivateRoute />}>
+          <Route index element={<Chat />} />
+        </Route>
         <Route path="/login">
           <Route index element={<Login />} />
         </Route>
