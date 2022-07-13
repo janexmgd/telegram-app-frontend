@@ -12,6 +12,7 @@
         "prettier": "^2.6.2",
         "prettier-eslint": "^15.0.1",
         "react": "^18.1.0",
+        "react-content-loader": "^6.2.0",
         "react-dom": "^18.1.0",
         "react-helmet": "^6.1.0",
         "react-redux": "^8.0.2",
@@ -23,6 +24,7 @@
         "redux-logger": "^3.0.6",
         "redux-persist": "^6.0.0",
         "redux-promise-middleware": "^6.1.2",
+        "socket.io-client": "^4.5.1",
         "sweetalert2": "^11.4.17",
         "web-vitals": "^2.1.4"
     },
